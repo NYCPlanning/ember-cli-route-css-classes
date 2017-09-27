@@ -2,5 +2,8 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-route-css-classes'
+  name: 'ember-cli-route-css-classes',
+  isDevelopingAddon: function () {
+    return false;
+  }
 };
