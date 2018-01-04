@@ -1,44 +1,50 @@
 {
   "name": "ember-cli-route-css-classes",
-  "version": "1.0.2",
-  "description": "Ember CLI addon for adding CSS classes on the body for routes",
+  "version": "1.0.3",
+  "description": "ember-cli addon for adding CSS classes on the body for routes.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Allariel",
+    "url": "https://github.com/Allariel"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:allariel/ember-cli-route-css-classes.git"
+  },
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-babel": "6.6.0"
+    "ember-cli-babel": "6.11.0"
   },
   "devDependencies": {
-    "broccoli-asset-rev": "2.5.0",
+    "broccoli-asset-rev": "2.6.0",
     "ember-ajax": "3.0.0",
-    "ember-cli": "2.14.0",
+    "ember-cli": "2.18.0",
     "ember-cli-dependency-checker": "1.4.0",
-    "ember-cli-eslint": "3.1.0",
-    "ember-cli-htmlbars": "2.0.2",
-    "ember-cli-htmlbars-inline-precompile": "0.4.3",
+    "ember-cli-eslint": "4.2.3",
+    "ember-cli-htmlbars": "2.0.3",
+    "ember-cli-htmlbars-inline-precompile": "1.0.2",
     "ember-cli-inject-live-reload": "1.7.0",
-    "ember-cli-qunit": "4.0.0",
-    "ember-cli-shims": "1.1.0",
+    "ember-cli-qunit": "4.2.1",
+    "ember-cli-shims": "1.2.0",
     "ember-cli-sri": "2.1.1",
-    "ember-cli-uglify": "1.2.0",
-    "ember-disable-prototype-extensions": "1.1.2",
+    "ember-cli-uglify": "2.0.0",
+    "ember-disable-prototype-extensions": "1.1.3",
     "ember-export-application-global": "2.0.0",
     "ember-load-initializers": "1.0.0",
-    "ember-resolver": "4.3.0",
-    "ember-source": "2.14.1",
-    "loader.js": "4.5.1"
+    "ember-resolver": "4.5.0",
+    "ember-source": "2.18.0",
+    "loader.js": "4.6.0"
   },
   "engines": {
     "node": "^4.5 || 6.* || >= 7.*"
